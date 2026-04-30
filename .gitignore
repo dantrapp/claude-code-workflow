@@ -1,0 +1,20 @@
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Working directories
+mnt/
+node_modules/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated files
+CLAUDE.generated.md
