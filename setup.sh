@@ -11,7 +11,9 @@ YELLOW='\033[1;33m'
 GRAY='\033[0;37m'
 NC='\033[0m'
 
-clear
+if [ -n "$TERM" ]; then
+  clear || true
+fi
 echo ""
 echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e "${BLUE}  claude-code-workflow / setup${NC}"

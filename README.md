@@ -27,7 +27,7 @@ Works with any language. Any stack. Any project type.
 ## Quickstart
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-code-workflow.git
+git clone https://github.com/dantrapp/claude-code-workflow.git
 cd claude-code-workflow
 chmod +x setup.sh
 ./setup.sh
